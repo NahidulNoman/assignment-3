@@ -4,11 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>EdTech-Website</title>
+    <!-- bootstrap cnd link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- custom css here -->
     <link rel="stylesheet" href="styles.css">
+    <!-- google-font-awesome kit here -->
     <script src="https://kit.fontawesome.com/2b4b638e02.js" crossorigin="anonymous"></script>
   </head>
   <body>
+    <!-- nav start -->
    <header>
     <nav class="navbar navbar-expand-lg bg-light container">
         <div class="container-fluid p-4">
@@ -42,29 +46,67 @@
         </div>
       </nav>
    </header>
+    <!-- nav end -->
+
+    <!-- slider start  -->
 <section class="mb-5">
-    <div id="carouselExampleControls" class="carousel slide container" data-bs-ride="carousel">
+    <div id="carouselExampleCaptions" class="carousel slide container" data-bs-ride="false">
+
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
         <div class="carousel-inner">
+
           <div class="carousel-item active">
             <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption mb-5">
+              <div>
                 <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
+              <p>Some representative placeholder content for the first slide.</p>
+              <button class="btn btn-primary" type="button">Get Started</button>
               </div>
+            </div>
           </div>
+
+          <div class="carousel-item">
+            <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption mb-5">
+                <div>
+                    <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                  <button class="btn btn-primary" type="button">Get Started</button>
+                  </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption mb-5">
+                <div>
+                    <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                  <button class="btn btn-primary" type="button">Get Started</button>
+                  </div>
+            </div>
+          </div>
+
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
 
-
 </section>
+  <!-- slider end  -->
+
+  <!-- Popular Courses start -->
 <section class="container mb-5">
 <h1 class="text-center">Discover Our Popular <br>
     Courses</h1>
@@ -152,7 +194,9 @@
     <a class="btn btn-primary" href="#" role="button">See More Courses</a>
 </div>
 </section>
+ <!-- Popular Courses end -->
 
+ <!-- register form start  -->
 <section class="container mb-5">
     <div class="d-flex justify-content-around align-items-center bg-info p-5 rounded-4">
         <div>
@@ -168,7 +212,9 @@
     </div>
 
 </section>
+ <!-- register form end  -->
 
+ <!-- Frequently Questions start -->
 <section class="container">
 
 <h1 class="text-center">Frequently Asked Questions</h1>
@@ -214,7 +260,9 @@
 </div>
 
 </section>
+<!-- Frequently Questions start -->
 
+<!-- Trusted companies start -->
 <section class="container mt-5">
 <h1 class="text-center fw-bold">Trusted by over 800+ companies</h1>
 <br><br>
@@ -229,7 +277,9 @@
     
 </div>
 </section>
+<!-- Trusted companies end -->
 
+<!-- footer start -->
 <footer class="mt-5 p-5 bg-dark text-white">
 
 <div class="d-flex align-items-center justify-content-center flex-column">
@@ -240,24 +290,23 @@
         Privacy Ploicy | Terms of use <br>
     </p>
     <p class="text-center">
-    <a href=""><i class="fa-brands fa-facebook"></i></a>
-    <a href=""><i class="fa-brands fa-facebook"></i></a>
-    <a href=""><i class="fa-brands fa-facebook"></i></a>
-    <a href=""><i class="fa-brands fa-facebook"></i></a>
+    <a href=""><i class="fa-brands fa-square-facebook px-2"></i></a>
+    <a href=""><i class="fa-brands fa-linkedin px-2"></i></a>
+    <a href=""><i class="fa-brands fa-square-twitter px-2"></i></a>
+    <a href=""><i class="fa-brands fa-bootstrap px-2"></i></a>
     
     </p>
-
 
 </div>
 
 </footer>
+<!-- footer end -->
 
 
 
 
 
-
-
+<!-- bootstrap cnd here -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
 </html>
